@@ -1,0 +1,24 @@
+{
+  "name": "color-mapper",
+  "version": "0.0.1",
+  "description": "Map a single value to a color",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shianqi/color-mapper.git"
+  },
+  "keywords": [
+    "color",
+    "mapper",
+    "color-mapper"
+  ],
+  "author": "Archie Shi <shianqi@imudges.com>",
+  "license": "MIT",
+  "dependencies": {
+    "color-string": "^1.5.2",
+    "lodash": "^4.17.4"
+  }
+}
