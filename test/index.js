@@ -1,6 +1,6 @@
-var createLinearGradient = require('../index')
+var colorMapper = require('../index')
 
-var gradient = createLinearGradient(0, 255);
+var gradient = colorMapper.createLinearGradient(0, 255);
 
 gradient.addColorStop(1.0, '#1ec38e');
 gradient.addColorStop(0.2, 'rgb(1, 134, 56)');
@@ -14,3 +14,4 @@ console.log(gradient.getHex(255));
 console.log(gradient.getHex(0));
 console.log(gradient.getHex(26));
 
+console.log(gradient.getAll());
