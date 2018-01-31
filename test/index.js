@@ -1,4 +1,4 @@
-var colorMapper = require('../index')
+var colorMapper = require('../lib/index')
 
 var gradient = colorMapper.createLinearGradient(0, 255);
 
