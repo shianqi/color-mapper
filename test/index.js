@@ -14,4 +14,6 @@ console.log(gradient.getHex(255));
 console.log(gradient.getHex(0));
 console.log(gradient.getHex(26));
 
-console.log(gradient.getAll());
+console.time('getAll');
+console.log(gradient.getAll().length)
+console.timeEnd('getAll');
