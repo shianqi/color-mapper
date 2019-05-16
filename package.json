@@ -1,6 +1,6 @@
 {
   "name": "color-mapper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Map a single value to a color",
   "main": "./lib/index.js",
   "scripts": {
